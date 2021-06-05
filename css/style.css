@@ -1,0 +1,139 @@
+
+
+body
+{
+    margin: 0px;
+}
+
+.main-container
+{
+    position: absolute;
+    top: 0px;
+}
+
+.head_title
+{
+    background-color: orange;
+    position: fixed;
+    top: 0px;
+    height: 5%;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-bar
+{
+    position: absolute;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    top: 35%;
+    right: 20%;
+    font-size: 17px;
+}
+
+.main-container
+{
+    height: 100%;
+    width: 100%;
+}
+
+img
+{
+    /* height: 100%; */
+    width: 100%;
+}
+/* .a{
+    position: absolute;
+} */
+
+h1
+{
+    margin: 0px;
+    /* padding: 15px; */
+}
+
+hr
+{
+    background-color: orange;
+    width: 5rem;
+    height: 0.3rem;
+    position: relative;
+    left: 5%;
+    top: 0px;
+}
+
+
+/* 
+
+h1
+{   
+    position: absolute;
+    left: 7%;
+    color: gray;
+}
+
+.title
+{
+    color: orchid;
+    margin-top: 2.5%;
+    position: absolute;
+    left: 5%;
+}
+
+button
+{
+    position: absolute;
+    left: 5%;
+    color: lightblue;
+    top: 55%;
+    width: 8%;
+    height: 5.5%;
+    border-radius: 20px;
+}
+
+button:hover
+{
+    background-color: navy;
+}
+
+
+
+
+
+
+.sub_title
+{
+    background-color: palegoldenrod;
+}
+
+
+/* .red
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.yellow
+{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.green
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+} */ */
