@@ -3,23 +3,35 @@ body
     margin: 0px;
     padding: 0;
     width: 100%;
+    /* font-family: 'Parisienne', cursive; */
+    /* font-family: 'Sacramento', cursive; */
 }
 
 .Embed
 {
+    position: fixed;
+    height: 5rem;
+    top: 0px;
     display: inline-block;
-    background-color: orange;
+    background-color: #ffffb3;
     width: 100%;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+a:hover{
+color: orange;
 }
 
 .head_title
 {
     position: relative;
-    top: 0;
+    top: 0px;
     left: 2%;
     height: 2%;
     display: inline-box;
-}
+    /* margin-block-start: 0.25em; */
+    /* margin-block-end: 0.25em; */
+    }
 
 .nav_btn
 {
@@ -35,11 +47,22 @@ body
     right: 10%;
     top: 5%;
     width: fit-content;
+    margin-top: 2%;
 }
 
 img
 {
     width: 100%;
+}
+
+.bg-img
+{
+/* position: absolute; */
+}
+
+h1
+{
+    font-weight: normal;
 }
 
 
@@ -62,7 +85,8 @@ img
     top: 35%;
     left: 5%;
     color: white;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
 }
 
 .highlighter
@@ -76,15 +100,88 @@ img
 
 .box1
 {
-
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: white;
+    background-color: orange;
+    height: 30%;
+    width: 25%;
+    text-align: left;
+    text-align: justify;
 }
 
 .box2
 {
-    
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    color: white;
+    background-color: grey;
+    height: 30%;
+    width: 25%;
+    text-align: left;
+    text-align: justify;
 }
 
 .box3
 {
-    
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    color: white;
+    background-color: grey;
+    height: 30%;
+    width: 25%;
+    text-align: left;
+    text-align: justify;
+}
+
+.box4
+{
+    display: inline-block;
+    position: absolute;
+    top: 92%;
+    left: 63%;
+    color: white;
+    background-color: orange;
+    height: 15%;
+    width: 23%;
+    text-align: left;
+    text-align: justify;
+}
+
+h3
+{
+    margin: 25px;
+}
+
+p{
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+
+.red
+{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.yellow
+{
+    display: inline-block;
+    background-color: red;
+}
+
+.green
+{
+    display: inline-block;
+    background-color: red;
 }
