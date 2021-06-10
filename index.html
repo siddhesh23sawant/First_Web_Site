@@ -1,30 +1,60 @@
 <!DOCTYPE html>
+<!-- Boiler Plate Starts Here -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Boiler Plate Ends Here -->
+
     <title>First_Website</title>
 
 
+    
+    <!-- Linking/OutSourcing StyleSheet/Font Styles/Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <link rel="icon" href="assets/exchange.png">
+
+    <!-- Linking/OutSourcing StyleSheet/Font Styles/Bootstrap -->
+    
+
+    <!-- Js Linking -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <!-- Js Ends Here -->
+
+
 </head>
 <body>
-    <div class="Embed">
-        <div class="head_title">
-            <h1>Crompton</h1>
-        </div>
-        <div class="navigation">
-            <a class="nav_btn" href=index.html>Home</a>
-            <a class="nav_btn" href=Product.html>Product</a>
-            <a class="nav_btn" href=About.html>About</a>
-            <a class="nav_btn" href=contact.html>contact</a>
-        </div>
-    </div>
+        <!-- Navigation Bar -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Crompton</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link true" aria-current="page" href="Product.html">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link true" aria-current="page" href=About.html>About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link true" aria-current="page" href=contact.html>contact</a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </nav>
+        <!-- Navigation-end -->
         <div class="main_page">
             <img class="bg-img" src="./assets/bg.jpg" alt="">
                 <div class="Content_title">
@@ -52,47 +82,5 @@
             <h3>Product Design</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident vitae aliquam animi in, sint soluta corporis.</p>
         </div>
-        
-</body>
-       
-    
-    
-
-            <!-- <h1 class="title">Lorem ipsum <br> Described here</h1> -->
-
-            
-
-            
-
-            <!-- <br><br><br><br><br>
-        
-        
-            <table cellspacing='5' align="center">
-                <tbody>
-                    <tr>
-                        <td>
-                            <h2>Product Design</h2>
-                        </td>
-                        <td>
-                            <h2>Product Design</h2>
-                        </td>
-                        <td>
-                            <h2>Product Design</h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptatibus id magnam <br> fugiat quia consequatur molestiae <br> corporis praesentium quis.</p>
-                        </td>
-                        <td>
-                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptatibus id magnam <br> fugiat quia consequatur molestiae <br> corporis praesentium quis.</p>
-                        </td>
-                        <td>
-                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptatibus id magnam <br> fugiat quia consequatur molestiae <br> corporis praesentium quis.</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table> -->
-    
     </body>
 </html>
